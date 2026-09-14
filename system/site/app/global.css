@@ -40,96 +40,96 @@
    everywhere has no accent. `--ksor-caution` (further down) is the only other
    colour with a job, and its job is the opposite one. */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.17 0.012 255);
-  --card: oklch(0.985 0.002 255);
-  --card-foreground: oklch(0.17 0.012 255);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.17 0.012 255);
-  --primary: #1d4ed8;
-  --primary-foreground: #ffffff;
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.972 0.002 255);
-  --muted-foreground: oklch(0.53 0.012 255);
-  --accent: oklch(0.965 0.004 255);
-  --accent-foreground: oklch(0.17 0.012 255);
+  --background: #ffffff;
+  --foreground: #0B0B0D;
+  --card: oklch(0.98 0 0);
+  --card-foreground: #0B0B0D;
+  --popover: #ffffff;
+  --popover-foreground: #0B0B0D;
+  --primary: #B5FF6D;
+  --primary-foreground: #0B0B0D;
+  --secondary: oklch(0.95 0 0);
+  --secondary-foreground: #0B0B0D;
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.4 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: #0B0B0D;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.9 0.004 255);
-  --input: oklch(0.9 0.004 255);
-  --ring: #1d4ed8;
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: #B5FF6D;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
   --radius: 0.5rem;
-  --sidebar: oklch(0.985 0.002 255);
-  --sidebar-foreground: oklch(0.17 0.012 255);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.965 0.004 255);
-  --sidebar-accent-foreground: oklch(0.17 0.012 255);
-  --sidebar-border: oklch(0.9 0.004 255);
-  --sidebar-ring: #1d4ed8;
+  --sidebar: oklch(0.98 0 0);
+  --sidebar-foreground: #0B0B0D;
+  --sidebar-primary: #B5FF6D;
+  --sidebar-primary-foreground: #0B0B0D;
+  --sidebar-accent: oklch(0.96 0 0);
+  --sidebar-accent-foreground: #0B0B0D;
+  --sidebar-border: oklch(0.9 0 0);
+  --sidebar-ring: #B5FF6D;
 
   /* The cover: the surface the front door's band is printed on. It follows the
      theme like everything else — in the light it is pale stock, a shade of the
      brand rather than a shade of grey (hue 258, between the text's 255 and the
      accent's 264). It was ink in both themes for one afternoon, which made the
      light theme a dark page with a white foot. */
-  --ksor-cover: oklch(0.965 0.013 258);
-  --ksor-cover-foreground: oklch(0.2 0.03 258);
-  --ksor-cover-muted: oklch(0.5 0.022 258);
-  --ksor-cover-rule: oklch(0.885 0.016 258);
-  --ksor-cover-hover: oklch(0.935 0.018 258);
-  --ksor-cover-panel: oklch(1 0 0);
-  --ksor-cover-panel-rule: oklch(0.9 0.014 258);
+  --ksor-cover: oklch(0.97 0 0);
+  --ksor-cover-foreground: #0B0B0D;
+  --ksor-cover-muted: oklch(0.5 0 0);
+  --ksor-cover-rule: oklch(0.88 0 0);
+  --ksor-cover-hover: oklch(0.94 0 0);
+  --ksor-cover-panel: #ffffff;
+  --ksor-cover-panel-rule: oklch(0.9 0 0);
 }
 
 .dark {
-  --background: oklch(0.155 0.012 255);
-  --foreground: oklch(0.965 0.004 255);
-  --card: oklch(0.195 0.012 255);
-  --card-foreground: oklch(0.965 0.004 255);
-  --popover: oklch(0.195 0.012 255);
-  --popover-foreground: oklch(0.965 0.004 255);
-  --primary: #7fb0f9;
-  --primary-foreground: #081226;
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.24 0.012 255);
-  --muted-foreground: oklch(0.7 0.014 255);
-  --accent: oklch(0.26 0.014 255);
-  --accent-foreground: oklch(0.965 0.004 255);
+  --background: #0B0B0D;
+  --foreground: #ffffff;
+  --card: oklch(0.08 0 0);
+  --card-foreground: #ffffff;
+  --popover: #0B0B0D;
+  --popover-foreground: #ffffff;
+  --primary: #B5FF6D;
+  --primary-foreground: #0B0B0D;
+  --secondary: oklch(0.15 0 0);
+  --secondary-foreground: #ffffff;
+  --muted: oklch(0.12 0 0);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.14 0 0);
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 12%);
-  --input: oklch(1 0 0 / 16%);
-  --ring: #7fb0f9;
+  --border: oklch(0.2 0 0);
+  --input: oklch(0.2 0 0);
+  --ring: #B5FF6D;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.185 0.012 255);
-  --sidebar-foreground: oklch(0.965 0.004 255);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.26 0.014 255);
-  --sidebar-accent-foreground: oklch(0.965 0.004 255);
-  --sidebar-border: oklch(1 0 0 / 12%);
-  --sidebar-ring: #7fb0f9;
+  --sidebar: #0B0B0D;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #B5FF6D;
+  --sidebar-primary-foreground: #0B0B0D;
+  --sidebar-accent: oklch(0.14 0 0);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: oklch(0.2 0 0);
+  --sidebar-ring: #B5FF6D;
 
   /* In the dark the cover rises one step ABOVE the page (0.245 against the
      background's 0.155) rather than inverting: a cover is the surface that
      catches the light. Same object, same lighting, darker room. */
-  --ksor-cover: oklch(0.245 0.038 258);
-  --ksor-cover-foreground: oklch(0.97 0.006 258);
-  --ksor-cover-muted: oklch(0.72 0.022 258);
-  --ksor-cover-rule: oklch(0.34 0.03 258);
-  --ksor-cover-hover: oklch(0.3 0.035 258);
-  --ksor-cover-panel: oklch(0.285 0.036 258);
-  --ksor-cover-panel-rule: oklch(0.36 0.03 258);
+  --ksor-cover: oklch(0.1 0 0);
+  --ksor-cover-foreground: #B5FF6D;
+  --ksor-cover-muted: oklch(0.6 0 0);
+  --ksor-cover-rule: oklch(0.2 0 0);
+  --ksor-cover-hover: oklch(0.15 0 0);
+  --ksor-cover-panel: #0B0B0D;
+  --ksor-cover-panel-rule: oklch(0.2 0 0);
 }
 
 /* The token → utility mapping shadcn components compile against, as
