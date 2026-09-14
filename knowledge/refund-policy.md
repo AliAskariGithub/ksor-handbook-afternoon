@@ -2,15 +2,16 @@
 type: Policy
 title: Refund Policy
 description: Customer return and refund procedures including timelines and conditions.
-status: draft
+status: stable
 sources:
   - id: internal-policy
     title: Internal refund policy guidelines
     resource: internal
-generated: { by: "human:owner", at: 2026-09-14T20:01:00Z }
+generated: { by: "human:you", at: 2026-09-14T20:01:00Z }
 ksor:
   audience: [public]
   owner: human:owner
+  approval: { by: "human:you", at: 2026-09-14T20:23:00Z }
 ---
 
 Customers may return items within 30 days of purchase with proof of receipt. Refunds are processed within 5 working days of receiving the returned item.
